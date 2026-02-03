@@ -3,22 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN PAGE UI</title>
+    <title>Advanced Login  UI</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="ui-container">
-        <h2 class="heading">Register</h2>
-        <label for="Username">Username:</label>
-        <input type="text" placeholder="Username" id="username">
-        <label for="password">Password:</label>
-        <input type="text" placeholder="Password" id="password">
-        <button type="button" id="submit">LOGIN</button>
-        <div id="message"></div>
+ <div class="login-card">
+    <h2>Welcome Back</h2>
+    <p class="subtitle">Login to your account</p>
+    <div class="input-group">
+        <input type="email" id="email" required>
+        <label for="Email">Email</label>
+    </div>
+
+    <div class="input-group">
+        <input type="password" id="password" required>
+        <label for="">Password</label>
+        <span id="togglePassword">👁</span>
+    </div>
+
+    <button id="loginBtn">
+        <span class="btn-text">Login</span>
+        <span class="loader"></span>
+    </button>
+
+<div id="message"></div>
+ </div>
 
 
 
-        <script src="node.js"></script>
+        <script src="script.js"></script>
     </div>
 </body>
 </html>
