@@ -18,7 +18,6 @@ if(useremail === "random@gmail.com" && userpassword === "1234"){
   message.innerHTML = "<p class = 'error'>Invalid email or password</p>"
 };
 
-
 });
 
 
